@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-nutshell",
+  "version": "1.0.0",
+  "description": "ESLint sharable config for Nutshell Javascript style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -s",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutshellcrm/eslint-config-nutshell.git"
+  },
+  "keywords": [
+    "nutshell",
+    "eslint",
+    "config",
+    "eslintconfig"
+  ],
+  "author": "Nutshell",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nutshellcrm/eslint-config-nutshell/issues"
+  },
+  "homepage": "https://github.com/nutshellcrm/eslint-config-nutshell#readme",
+  "peerDependencies": {
+    "eslint": "^1.6.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.4",
+    "eslint": ">=1.6.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.8.0"
+  }
+}
