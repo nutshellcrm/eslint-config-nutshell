@@ -18,7 +18,7 @@
     "eslintconfig"
   ],
   "author": "Nutshell",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nutshellcrm/eslint-config-nutshell/issues"
   },
