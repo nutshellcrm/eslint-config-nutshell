@@ -1,0 +1,20 @@
+---
+
+    extends: nutshell
+
+    ecmaFeatures:
+        modules: false
+
+    env:
+        node: true
+
+    rules:
+        key-spacing:
+            - 2
+            - align: colon
+        quote-props:
+            - 2
+            - always
+        strict:
+            - 2
+            - global
