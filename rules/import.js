@@ -17,4 +17,9 @@ module.exports = {
         // Report use of exported name as identifier of default export
         'import/no-named-as-default': [2],
     },
+    'settings': {
+        'import/resolve': {
+            'extensions': ['.js', '.jsx'],
+        },
+    },
 };
