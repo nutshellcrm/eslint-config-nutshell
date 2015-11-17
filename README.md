@@ -5,7 +5,7 @@ ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-confi
 ## Install
 
 ```
-$ npm install --save-dev eslint eslint-config-nutshell eslint-plugin-babel eslint-plugin-react eslint-config-import eslint-plugin-import
+$ npm install --save-dev eslint eslint-config-nutshell eslint-plugin-babel eslint-plugin-react eslint-config-import eslint-plugin-import babel-eslint
 ```
 
 ## Usage
