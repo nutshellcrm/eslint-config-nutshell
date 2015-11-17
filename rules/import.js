@@ -12,6 +12,8 @@ module.exports = {
         'import/no-unresolved'      : [2],
         // Ensure named imports correspond to a named export in the remote file
         'import/named'              : [2],
+        // Ensure imported namespaces contain dereferenced properties as they are dereferenced
+        'import/namespace'          : [2],
         // Ensure a default export is present, given a default import
         'import/default'            : [2],
         // Report use of exported name as identifier of default export
