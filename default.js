@@ -10,5 +10,6 @@ module.exports = {
         'eslint-config-nutshell/rules/react',
         'eslint-config-nutshell/rules/strict',
         'eslint-config-nutshell/rules/style',
+        'eslint-config-nutshell/rules/import',
     ],
 };
