@@ -44,5 +44,9 @@ module.exports = {
         'react/self-closing-comp'           : [2],
         // Prevent missing parentheses around multilines JSX
         'react/wrap-multilines'             : [2],
+        // Enforce handler naming convention
+        'react/jsx-handler-names'           : [2],
+        // Prevent use of deprecated methods
+        'react/no-deprecated'               : [2],
     },
 };
