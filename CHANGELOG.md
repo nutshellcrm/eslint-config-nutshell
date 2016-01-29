@@ -1,6 +1,7 @@
 # Changes
 
 ## Master
+- Add additional React rules
 
 ## 2.0.1
 - Loosen Peer Dependencies
