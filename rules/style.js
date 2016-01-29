@@ -52,5 +52,7 @@ module.exports = {
         'space-return-throw-case'    : [2],
         // Disallow spaces before/after unary operators
         'space-unary-ops'            : [2],
+        // Disallow spaces at the ends of lines
+        'no-trailing-spaces'         : [2],
     },
 };
