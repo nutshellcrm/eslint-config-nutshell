@@ -1,6 +1,6 @@
 # Changes
 
-## Master
+## 3.0.0
 - Add additional React rules
 
 ## 2.0.1
