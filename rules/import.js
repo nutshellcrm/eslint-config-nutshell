@@ -1,9 +1,6 @@
 'use strict';
 
 module.exports = {
-    'extends': [
-        'import/es7-jsx',
-    ],
     'plugins': [
         'import',
     ],
