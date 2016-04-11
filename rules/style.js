@@ -16,6 +16,8 @@ module.exports = {
         'indent'                     : [2, 4],
         // Enforce spacing between keys and values in object literal properties
         'key-spacing'                : [2, {'beforeColon': false, 'afterColon': true}],
+        // Enforce spacing around keywords
+        'keyword-spacing'                : [2],
         // Disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style'            : [2, 'unix'],
         // Disallow use of the continue statement
@@ -40,16 +42,12 @@ module.exports = {
         'semi-spacing'               : [2, {'before': false, 'after': true}],
         // Require use of semicolons instead of ASI
         'semi'                       : [2, 'always'],
-        // Require a space after certain keywords
-        'space-after-keywords'       : [2],
         // Require space before blocks
         'space-before-blocks'        : [2],
         // Disallow space before function opening parenthesis
         'space-before-function-paren': [2, 'never'],
         // Require spaces around infix operators
         'space-infix-ops'            : [2],
-        // Require a space after return, throw, and case
-        'space-return-throw-case'    : [2],
         // Disallow spaces before/after unary operators
         'space-unary-ops'            : [2],
         // Disallow spaces at the ends of lines
