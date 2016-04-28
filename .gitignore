@@ -1,5 +1,4 @@
 node_modules/*
-!node_modules/eslint-config-nutshell
 
 # Ignore configuration and automatically generated cruft
 *.log
