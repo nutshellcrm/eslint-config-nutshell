@@ -7,6 +7,11 @@ module.exports = {
     'plugins': [
         'react',
     ],
+    'settings': {
+        'react': {
+            'version': '0.14',
+        },
+    },
     'rules': {
         // Prevent variables used in JSX to be incorrectly marked as unused
         'react/jsx-uses-vars'               : [2],
