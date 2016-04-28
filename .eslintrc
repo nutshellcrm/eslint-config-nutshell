@@ -2,8 +2,8 @@
 
     extends: nutshell
 
-    ecmaFeatures:
-        modules: false
+    parserOptions:
+        sourceType: script
 
     env:
         node: true
