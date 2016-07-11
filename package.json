@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/nutshellcrm/eslint-config-nutshell#readme",
   "peerDependencies": {
-    "eslint": "^2.0.0",
+    "eslint": "2.x - 3.x",
     "eslint-plugin-babel": "^3.0.0",
     "eslint-plugin-react": "^5.0.0",
     "eslint-plugin-import": "^1.0.0"
