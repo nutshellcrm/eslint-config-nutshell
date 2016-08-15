@@ -1,5 +1,8 @@
 # Changes
 
+## 5.0.0
+- Update eslint-plugin-react to ^6.0.0
+
 ## 3.0.0
 - Add additional React rules
 
