@@ -44,9 +44,9 @@ module.exports = {
         // Prevent missing props validation in a React component definition
         'react/prop-types'                  : [2],
         // Prevent extra closing tags for components without children
-        'react/self-closing-comp'           : [2],
+        'react/self-closing-comp'           : [2, {html: false}],
         // Prevent missing parentheses around multilines JSX
-        'react/wrap-multilines'             : [2],
+        'react/jsx-wrap-multilines'         : [2],
         // Enforce handler naming convention
         'react/jsx-handler-names'           : [2],
         // Prevent use of deprecated methods
