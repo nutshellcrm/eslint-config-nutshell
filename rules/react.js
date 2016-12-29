@@ -51,5 +51,17 @@ module.exports = {
         'react/prop-types'                  : [2],
         // Prevent extra closing tags for components without children
         'react/self-closing-comp'           : [2, {'html': false}],
+        // --- Disabled Rules ---
+        'react/display-name'                : [0],
+        'react/forbid-component-props'      : [0],
+        'react/jsx-filename-extension'      : [0],
+        'react/jsx-no-bind'                 : [0],
+        'react/jsx-no-literals'             : [0],
+        'react/jsx-no-set-state'            : [0],
+        'react/no-unused-prop-types'        : [0], // Waiting for the problems mentioned in https://github.com/yannickcr/eslint-plugin-react/issues/976#issuecomment-268995092 to be addressed
+        'react/prefer-stateless-function'   : [0],
+        'react/require-optimization'        : [0],
+        'react/sort-comp'                   : [0], // Would like to enable, but is a big job
+        'react/sort-prop-types'             : [0],
     },
 };
