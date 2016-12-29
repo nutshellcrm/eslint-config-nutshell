@@ -27,7 +27,7 @@
   "peerDependencies": {
     "eslint": "2.x - 3.x",
     "eslint-plugin-babel": "^3.0.0",
-    "eslint-plugin-import": "^1.0.0",
+    "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {
