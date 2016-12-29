@@ -13,14 +13,14 @@ module.exports = {
         },
     },
     'rules': {
-        // Prevent variables used in JSX to be incorrectly marked as unused
-        'react/jsx-uses-vars'               : [2],
         // Enforce boolean attributes notation in JSX
         'react/jsx-boolean-value'           : [2, 'always'],
         // Enforce the closing bracket location for JSX multiline elements
         'react/jsx-closing-bracket-location': [2, {'selfClosing': 'after-props', 'nonEmpty': false}],
         // Disallow spaces inside of curly braces in JSX attributes
         'react/jsx-curly-spacing'           : [2, 'never'],
+        // Enforce handler naming convention
+        'react/jsx-handler-names'           : [2],
         // Validate props indentation in JSX
         'react/jsx-indent-props'            : [2, 4],
         // Limit maximum of props on a single line in JSX
@@ -31,6 +31,12 @@ module.exports = {
         'react/jsx-no-undef'                : [2],
         // Prevent React to be incorrectly marked as unused
         'react/jsx-uses-react'              : [2],
+        // Prevent variables used in JSX to be incorrectly marked as unused
+        'react/jsx-uses-vars'               : [2],
+        // Prevent missing parentheses around multilines JSX
+        'react/jsx-wrap-multilines'         : [2],
+        // Prevent use of deprecated methods
+        'react/no-deprecated'               : [2],
         // Prevent usage of setState in componentDidMount
         'react/no-did-mount-set-state'      : [2],
         // Prevent usage of setState in componentDidUpdate
@@ -44,12 +50,6 @@ module.exports = {
         // Prevent missing props validation in a React component definition
         'react/prop-types'                  : [2],
         // Prevent extra closing tags for components without children
-        'react/self-closing-comp'           : [2, {html: false}],
-        // Prevent missing parentheses around multilines JSX
-        'react/jsx-wrap-multilines'         : [2],
-        // Enforce handler naming convention
-        'react/jsx-handler-names'           : [2],
-        // Prevent use of deprecated methods
-        'react/no-deprecated'               : [2],
+        'react/self-closing-comp'           : [2, {'html': false}],
     },
 };
