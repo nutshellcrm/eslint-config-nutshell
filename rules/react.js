@@ -9,7 +9,7 @@ module.exports = {
     ],
     'settings': {
         'react': {
-            'version': '0.14',
+            'version': '15.0',
         },
     },
     'rules': {
