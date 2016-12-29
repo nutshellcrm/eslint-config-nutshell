@@ -17,7 +17,7 @@ module.exports = {
         // Enforce spacing between keys and values in object literal properties
         'key-spacing'                : [2, {'beforeColon': false, 'afterColon': true}],
         // Enforce spacing around keywords
-        'keyword-spacing'                : [2],
+        'keyword-spacing'            : [2],
         // Disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style'            : [2, 'unix'],
         // Disallow use of the continue statement
@@ -30,6 +30,8 @@ module.exports = {
         'no-nested-ternary'          : [2],
         // Disallow space between function identifier and application
         'no-spaced-func'             : [2],
+        // Disallow spaces at the ends of lines
+        'no-trailing-spaces'         : [2],
         // Disallow the use of Boolean literals in conditional expressions
         'no-unneeded-ternary'        : [2],
         // Enforce padding within blocks
@@ -50,7 +52,5 @@ module.exports = {
         'space-infix-ops'            : [2],
         // Disallow spaces before/after unary operators
         'space-unary-ops'            : [2],
-        // Disallow spaces at the ends of lines
-        'no-trailing-spaces'         : [2],
     },
 };
