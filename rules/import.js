@@ -31,6 +31,16 @@ module.exports = {
         'import/no-unresolved'             : [2],
         // Enforce a convention in the order of require() / import statements
         'import/order'                     : [2, {'groups': ['builtin', ['external', 'internal'], 'parent', 'sibling', 'index']}],
+        // --- Disabled Rules ---
+        'import/max-dependencies'          : [0],
+        'import/no-amd'                    : [0],
+        'import/no-commonjs'               : [0],
+        'import/no-deprecated'             : [0],
+        'import/no-internal-modules'       : [0],
+        'import/no-namespace'              : [0],
+        'import/no-restricted-paths'       : [0],
+        'import/no-unassigned-import'      : [0],
+        'import/prefer-default-export'     : [0],
     },
     'settings': {
         'import/resolve': {
