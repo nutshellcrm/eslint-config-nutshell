@@ -1,5 +1,10 @@
 # Changes
 
+## 6.0.0
+- Enable lots of new rules
+- Bump peer dependencies
+- See https://github.com/nutshellcrm/eslint-config-nutshell/pull/12 for full details.
+
 ## 5.0.0
 - Update eslint-plugin-react to ^6.0.0
 
