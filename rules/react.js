@@ -46,7 +46,7 @@ module.exports = {
         // Enforce PascalCase for user-defined JSX components
         'react/jsx-pascal-case'             : [2],
         // Enforce props alphabetical sorting
-        'react/jsx-sort-props'              : [2, {'callbacksLast': true, 'ignoreCase': true}],
+        'react/jsx-sort-props'              : [2, {'callbacksLast': true, 'ignoreCase': true, 'shortHandFirst': true}],
         // Validate spacing before closing bracket in JSX
         'react/jsx-space-before-closing'    : [2, 'always'],
         // Validate whitespace in and around the JSX opening and closing brackets
