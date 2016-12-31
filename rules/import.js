@@ -21,6 +21,10 @@ module.exports = {
         'import/newline-after-import'      : [2],
         // Forbid import of modules using absolute paths
         'import/no-absolute-path'          : [2],
+        // Report require([array], ...) and define([array], ...) function calls at the module scope.
+        'import/no-amd'                    : [2],
+        // Report require([string]) function calls.
+        'import/no-commonjs'               : [2],
         // Report if a resolved path is imported more than once
         'import/no-duplicates'             : [2],
         // Forbid require() calls with expressions
@@ -47,8 +51,6 @@ module.exports = {
         'import/unambiguous'               : [2],
         // --- Disabled Rules ---
         'import/max-dependencies'          : [0],
-        'import/no-amd'                    : [0],
-        'import/no-commonjs'               : [0],
         'import/no-deprecated'             : [0],
         'import/no-internal-modules'       : [0],
         'import/no-namespace'              : [0],
