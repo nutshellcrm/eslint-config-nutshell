@@ -9,6 +9,7 @@
         node: true
 
     rules:
+        import/no-commonjs: 0
         key-spacing:
             - 2
             - align: colon
