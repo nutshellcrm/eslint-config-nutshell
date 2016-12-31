@@ -8,8 +8,6 @@ module.exports = {
         'modules': true,
     },
     'rules': {
-        // Require braces as-needed around arrow function bodies
-        'arrow-body-style'       : [2, 'as-needed'],
         // Require parentheses around arrow function arguments as-needed
         'arrow-parens'           : [2, 'as-needed'],
         // Require space before/after arrow function’s arrow
