@@ -7,7 +7,7 @@ module.exports = {
         // Enforce spaces inside of single line blocks
         'block-spacing'                : [2, 'always'],
         // Enforce one true brace style
-        'brace-style'                  : [2, '1tbs', {'allowSingleLine': true }],
+        'brace-style'                  : [2, '1tbs', {'allowSingleLine': true}],
         // Enforce capitalization of the first letter of a comment
         'capitalized-comments'         : [2, 'always', {'ignoreConsecutiveComments': true}],
         // Enforce trailing commas in multiline object literals
@@ -42,7 +42,7 @@ module.exports = {
         'no-continue'                  : [2],
         // Disallow if as the only statement in an else block
         'no-lonely-if'                 : [2],
-        // disallow multiple empty lines
+        // Disallow multiple empty lines
         'no-multiple-empty-lines'      : [2],
         // Disallow nested ternary expressions
         'no-nested-ternary'            : [2],
