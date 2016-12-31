@@ -1,5 +1,8 @@
 # Changes
 
+## 6.0.1
+- Fix error in react/jsx-sort-props configuration
+
 ## 6.0.0
 - Enable lots of new rules
 - Bump peer dependencies
