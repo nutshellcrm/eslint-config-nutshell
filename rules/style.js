@@ -9,7 +9,7 @@ module.exports = {
         // Enforce one true brace style
         'brace-style'                  : [2, '1tbs', {'allowSingleLine': true }],
         // Enforce capitalization of the first letter of a comment
-        'capitalized-comments'         : [2, 'always'],
+        'capitalized-comments'         : [2, 'always', {'ignoreConsecutiveComments': true}],
         // Enforce trailing commas in multiline object literals
         'comma-dangle'                 : [2, 'always-multiline'],
         // Enforce spacing after comma
