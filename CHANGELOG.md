@@ -1,5 +1,9 @@
 # Changes
 
+## 7.0.0
+- Upgrade to ESLint version 4.x
+- Upgrade internal dev dependencies
+
 ## 6.0.1
 - Fix error in react/jsx-sort-props configuration
 
