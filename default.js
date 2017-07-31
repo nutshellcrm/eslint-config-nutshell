@@ -3,7 +3,9 @@
 module.exports = {
     'extends': [
         'eslint:recommended',
+        'eslint-config-nutshell/config/env',
         'eslint-config-nutshell/config/parser-options',
+        'eslint-config-nutshell/config/parser',
         'eslint-config-nutshell/rules/babel',
         'eslint-config-nutshell/rules/best-practices',
         'eslint-config-nutshell/rules/errors',

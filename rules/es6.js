@@ -1,9 +1,6 @@
 'use strict';
 
 module.exports = {
-    'env': {
-        'es6': true,
-    },
     'rules': {
         // Require parentheses around arrow function arguments as-needed
         'arrow-parens'           : [2, 'as-needed'],
