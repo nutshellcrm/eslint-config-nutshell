@@ -44,8 +44,6 @@ module.exports = {
         'react/jsx-pascal-case'             : [2],
         // Enforce props alphabetical sorting
         'react/jsx-sort-props'              : [2, {'callbacksLast': true, 'ignoreCase': true, 'shorthandFirst': true}],
-        // Validate spacing before closing bracket in JSX
-        'react/jsx-space-before-closing'    : [2, 'always'],
         // Validate whitespace in and around the JSX opening and closing brackets
         'react/jsx-tag-spacing'             : [2],
         // Prevent React to be incorrectly marked as unused
