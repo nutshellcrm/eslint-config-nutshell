@@ -4,8 +4,6 @@ module.exports = {
     'rules': {
         // Enforce return statements in callbacks of array methods
         'array-callback-return'       : [2],
-        // Enforce that class methods utilize this
-        'class-methods-use-this'      : [2],
         // Specify curly brace conventions for all control statements
         'curly'                       : [2, 'multi-line'],
         // Require dot Nntation
@@ -33,7 +31,7 @@ module.exports = {
         // Disallow Functions in Loops
         'no-loop-func'                : [2],
         // Disallow use of multiple spaces
-        'no-multi-spaces'             : [2],
+        'no-multi-spaces'             : [2, {'ignoreEOLComments': true}],
         // Disallow new operators with the Function object
         'no-new-func'                 : [2],
         // Disallow new operators with the String, Number, and Boolean objects
@@ -56,5 +54,7 @@ module.exports = {
         'no-useless-escape'           : [2],
         // Disallow redundant return statements
         'no-useless-return'           : [2],
+        // --- Disabled Rules ---
+        'class-methods-use-this'      : [0],
     },
 };

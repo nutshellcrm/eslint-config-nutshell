@@ -22,12 +22,8 @@ module.exports = {
         'react/jsx-equals-spacing'          : [2],
         // Ensure correct position of the first property
         'react/jsx-first-prop-new-line'     : [2, 'multiline'],
-        // Enforce handler naming convention
-        'react/jsx-handler-names'           : [2],
         // Validate props indentation in JSX
         'react/jsx-indent-props'            : [2, 4],
-        // Validate JSX indentation
-        'react/jsx-indent'                  : [2, 4],
         // Detect missing key prop
         'react/jsx-key'                     : [2],
         // Limit maximum of props on a single line in JSX
@@ -42,8 +38,6 @@ module.exports = {
         'react/jsx-no-undef'                : [2],
         // Enforce PascalCase for user-defined JSX components
         'react/jsx-pascal-case'             : [2],
-        // Enforce props alphabetical sorting
-        'react/jsx-sort-props'              : [2, {'callbacksLast': true, 'ignoreCase': true, 'shorthandFirst': true}],
         // Validate whitespace in and around the JSX opening and closing brackets
         'react/jsx-tag-spacing'             : [2],
         // Prevent React to be incorrectly marked as unused
@@ -72,8 +66,6 @@ module.exports = {
         'react/no-find-dom-node'            : [2],
         // Prevent usage of isMounted
         'react/no-is-mounted'               : [2],
-        //
-        'react/no-multi-comp'               : [2],
         // Prevent usage of the return value of React.render
         'react/no-render-return-value'      : [2],
         // Prevent using string references
@@ -88,8 +80,6 @@ module.exports = {
         'react/prop-types'                  : [2],
         // Prevent missing React when using JSX
         'react/react-in-jsx-scope'          : [2],
-        // Enforce a defaultProps definition for every prop that is not a required prop
-        'react/require-default-props'       : [2],
         // Enforce ES5 or ES6 class for returning value in render function
         'react/require-render-return'       : [2],
         // Prevent extra closing tags for components without children
@@ -100,11 +90,16 @@ module.exports = {
         'react/display-name'                : [0],
         'react/forbid-component-props'      : [0],
         'react/jsx-filename-extension'      : [0],
+        'react/jsx-handler-names'           : [0],
+        'react/jsx-indent'                  : [0], // ESLint itself does a good job now
         'react/jsx-no-bind'                 : [0],
         'react/jsx-no-literals'             : [0],
+        'react/jsx-no-multi-comp'           : [0],
         'react/jsx-no-set-state'            : [0],
+        'react/jsx-sort-props'              : [0],
         'react/no-unused-prop-types'        : [0], // Waiting for the problems mentioned in https://github.com/yannickcr/eslint-plugin-react/issues/976#issuecomment-268995092 to be addressed
         'react/prefer-stateless-function'   : [0],
+        'react/require-default-props'       : [0],
         'react/require-optimization'        : [0],
         'react/sort-comp'                   : [0], // Would like to enable, but is a big job
         'react/sort-prop-types'             : [0],

@@ -23,7 +23,7 @@ module.exports = {
         // Disallow spacing between function identifiers and their invocations
         'func-call-spacing'            : [2],
         // Enforce four space indent width for your code
-        'indent'                       : [2, 4],
+        'indent'                       : [2, 4, {'SwitchCase': 1}],
         // Enforce spacing between keys and values in object literal properties
         'key-spacing'                  : [2, {'beforeColon': false, 'afterColon': true}],
         // Enforce spacing around keywords
