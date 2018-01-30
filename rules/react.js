@@ -46,6 +46,8 @@ module.exports = {
         'react/jsx-uses-vars'               : [2],
         // Prevent missing parentheses around multilines JSX
         'react/jsx-wrap-multilines'         : [2],
+        // Avoid possible state update batching problems
+        'react/no-access-state-in-setstate' : [2],
         // Prevent usage of Array index in keys
         'react/no-array-index-key'          : [2],
         // Prevent passing of children as props
