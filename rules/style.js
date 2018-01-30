@@ -28,6 +28,8 @@ module.exports = {
         'keyword-spacing'              : [2],
         // Disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style'              : [2, 'unix'],
+        // Enforce a line between class memebers
+        'lines-between-class-members'  : [2, 'always', {'exceptAfterSingleLine': true}],
         // Enforce a maximum number of statements allowed per line
         'max-statements-per-line'      : [2, {'max': 1}],
         // Require an empty line before return statements
