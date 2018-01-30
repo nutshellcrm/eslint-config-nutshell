@@ -70,10 +70,16 @@ module.exports = {
         'react/no-render-return-value'      : [2],
         // Prevent using string references
         'react/no-string-refs'              : [2],
+        // Prevent casing typos in react class and lifecycle methods
+        'react/no-typos'                    : [2],
         // Prevent invalid characters from appearing in markup
         'react/no-unescaped-entities'       : [2],
         // Prevent usage of unknown DOM property
         'react/no-unknown-property'         : [2],
+        // Prevent unused props
+        'react/no-unused-prop-types'        : [2],
+        // Prevent unused state
+        'react/no-unused-state'             : [2],
         // Prefer es6 class instead of createClass for React Components
         'react/prefer-es6-class'            : [2],
         // Prevent missing props validation in a React component definition
@@ -97,7 +103,6 @@ module.exports = {
         'react/jsx-no-multi-comp'           : [0],
         'react/jsx-no-set-state'            : [0],
         'react/jsx-sort-props'              : [0],
-        'react/no-unused-prop-types'        : [0], // Waiting for the problems mentioned in https://github.com/yannickcr/eslint-plugin-react/issues/976#issuecomment-268995092 to be addressed
         'react/prefer-stateless-function'   : [0],
         'react/require-default-props'       : [0],
         'react/require-optimization'        : [0],
