@@ -2,8 +2,6 @@
 
 module.exports = {
     'rules': {
-        // Require parentheses around arrow function arguments as-needed
-        'arrow-parens'           : [2, 'as-needed'],
         // Require space before/after arrow function’s arrow
         'arrow-spacing'          : [2],
         // Disallow use of this/super before calling super() in constructors
@@ -14,8 +12,6 @@ module.exports = {
         'no-useless-constructor' : [2],
         // Require let or const instead of var
         'no-var'                 : [2],
-        // Require arrow functions as callbacks
-        'prefer-arrow-callback'  : [2],
         // Require const declarations for variables that are never reassigned after declared
         'prefer-const'           : [2],
         // Require spread operators instead of .apply()
@@ -28,5 +24,8 @@ module.exports = {
         'rest-spread-spacing'    : [2, 'never'],
         // Disallow spacing around embedded expressions of template strings
         'template-curly-spacing' : [2, 'never'],
+        // --- Disabled Rules ---
+        'arrow-parens'           : [0],
+        'prefer-arrow-callback'  : [0],
     },
 };

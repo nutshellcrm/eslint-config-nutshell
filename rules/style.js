@@ -8,8 +8,6 @@ module.exports = {
         'block-spacing'                : [2, 'always'],
         // Enforce one true brace style
         'brace-style'                  : [2, '1tbs', {'allowSingleLine': true}],
-        // Enforce capitalization of the first letter of a comment
-        'capitalized-comments'         : [2, 'always', {'ignoreConsecutiveComments': true}],
         // Enforce trailing commas in multiline object literals
         'comma-dangle'                 : [2, 'always-multiline'],
         // Enforce spacing after comma
@@ -23,13 +21,15 @@ module.exports = {
         // Disallow spacing between function identifiers and their invocations
         'func-call-spacing'            : [2],
         // Enforce four space indent width for your code
-        'indent'                       : [2, 4],
+        'indent'                       : [2, 4, {'SwitchCase': 1}],
         // Enforce spacing between keys and values in object literal properties
         'key-spacing'                  : [2, {'beforeColon': false, 'afterColon': true}],
         // Enforce spacing around keywords
         'keyword-spacing'              : [2],
         // Disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style'              : [2, 'unix'],
+        // Enforce a line between class memebers
+        'lines-between-class-members'  : [2, 'always', {'exceptAfterSingleLine': true}],
         // Enforce a maximum number of statements allowed per line
         'max-statements-per-line'      : [2, {'max': 1}],
         // Require an empty line before return statements
@@ -82,5 +82,7 @@ module.exports = {
         'space-unary-ops'              : [2],
         // Enforce consistent spacing after the // or /* in a comment
         'spaced-comment'               : [2, 'always', {'block': {'exceptions': ['-'], 'balanced': true}}],
+        // --- Disabled Rules ---
+        'capitalized-comments'         : [0],
     },
 };
