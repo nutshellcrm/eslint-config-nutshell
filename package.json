@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nutshell",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "ESLint sharable config for Nutshell Javascript style guide",
   "main": "index.js",
   "scripts": {
