@@ -1,5 +1,8 @@
 # Changes
 
+## 9.1.0
+- Set `eqeqeq` rule to "smart"
+
 ## 7.0.0
 - Upgrade to ESLint version 4.x
 - Upgrade internal dev dependencies
