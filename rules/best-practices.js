@@ -8,8 +8,8 @@ module.exports = {
         'curly'                       : [2, 'multi-line'],
         // Require dot Nntation
         'dot-notation'                : [2],
-        // Require === and !==
-        'eqeqeq'                      : [2],
+        // Require === and !==, with some exceptions
+        'eqeqeq'                      : [2, 'smart'],
         // Require Guarding for-in
         'guard-for-in'                : [2],
         // Disallow the use of `alert`, `confirm`, and `prompt`
